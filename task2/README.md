@@ -7,7 +7,7 @@ Deploy a **WordPress** website with a **MySQL** database on Kubernetes using:
 - **Services** for internal and external access  
 
 ---
-
+![forest](https://github.com/ImranNadaf/k8s/tree/d7835b670accdacf0e6e9a09241640288cacd318/screenshots/task2)
 
 ---
 
