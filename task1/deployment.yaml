@@ -1,0 +1,73 @@
+# Deployment for pod1
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pod1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multi-nginx
+      instance: pod1
+  template:
+    metadata:
+      labels:
+        app: multi-nginx
+        instance: pod1
+    spec:
+      containers:
+      - name: nginx
+        image: imrannadaf/nginx-pod1:v1
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+
+---
+# Deployment for pod2
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pod2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multi-nginx
+      instance: pod2
+  template:
+    metadata:
+      labels:
+        app: multi-nginx
+        instance: pod2
+    spec:
+      containers:
+      - name: nginx
+        image: imrannadaf/nginx-pod2:v1
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+
+---
+# Deployment for pod3
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pod3
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multi-nginx
+      instance: pod3
+  template:
+    metadata:
+      labels:
+        app: multi-nginx
+        instance: pod3
+    spec:
+      containers:
+      - name: nginx
+        image: imrannadaf/nginx-pod3:v1
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
