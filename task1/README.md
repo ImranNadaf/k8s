@@ -12,13 +12,13 @@ Started Cluster-->minikube start –driver=docker
 ### 1️⃣ Build Custom Docker Images
 Each Pod serves a unique HTML file.
 
-![t1](screenshots/task1/1.jpg)
+![t1]([screenshots/task1/1.jpg](https://github.com/ImranNadaf/k8s/blob/d7835b670accdacf0e6e9a09241640288cacd318/screenshots/task1/1.jpg))
 
-![t2](screenshots/task1/2.jpg)
+![t2](https://github.com/ImranNadaf/k8s/blob/d7835b670accdacf0e6e9a09241640288cacd318/screenshots/task1/2.jpg)
 
-![t3](screenshots/task1/3.jpg)
+![t3](https://github.com/ImranNadaf/k8s/blob/d7835b670accdacf0e6e9a09241640288cacd318/screenshots/task1/3.jpg)
 
-![t4](screenshots/task1/4.jpg)
+![t4](https://github.com/ImranNadaf/k8s/blob/d7835b670accdacf0e6e9a09241640288cacd318/screenshots/task1/4.jpg)
 
 ```bash
 # Build
