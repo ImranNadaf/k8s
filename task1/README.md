@@ -12,6 +12,14 @@ Started Cluster-->minikube start –driver=docker
 ### 1️⃣ Build Custom Docker Images
 Each Pod serves a unique HTML file.
 
+![t1](screenshots/task1/1.jpg)
+
+![t2](screenshots/task1/2.jpg)
+
+![t3](screenshots/task1/3.jpg)
+
+![t4](screenshots/task1/4.jpg)
+
 ```bash
 # Build
 docker build -t imrannadaf/nginx-pod1:v1 -f Dockerfile1 .
