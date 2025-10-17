@@ -7,6 +7,11 @@ using a **ServiceAccount** bound to the **cluster-admin** role.
 ---
 
 
+![t31](https://github.com/ImranNadaf/k8s/blob/d7835b670accdacf0e6e9a09241640288cacd318/screenshots/task3/1.jpg)
+
+![t31](https://github.com/ImranNadaf/k8s/blob/d7835b670accdacf0e6e9a09241640288cacd318/screenshots/task3/2.jpg)
+
+![t31](https://github.com/ImranNadaf/k8s/blob/d7835b670accdacf0e6e9a09241640288cacd318/screenshots/task3/3.jpg)
 
 
 ##  Steps Executed
